@@ -53,29 +53,33 @@ class MainActivity : AppCompatActivity() {
             for (boton in botones) {
                 boton.text = ""
                 boton.isEnabled = true
-                c = 1
                 botonx.isEnabled = true
                 botono.isEnabled = true
             }
             c = 0
             win.text = getString(R.string.eleccion3)
+            gameover = false
         }
 
         for (boton in botones) {
             boton.setOnClickListener {
-                if (c != 0) {
-                    if (c == 1) {
-                        boton.text = getString(R.string.x)
-                        c = 2
-                        boton.isEnabled = false
+                if (!gameover) {
+                    if (c != 0) {
+                        if (c == 1) {
+                            boton.text = getString(R.string.x)
+                            c = 2
+                            boton.isEnabled = false
+                        } else {
+                            boton.text = getString(R.string.o)
+                            c = 1
+                            boton.isEnabled = false
+                        }
+                        ganador()
                     } else {
-                        boton.text = getString(R.string.o)
-                        c = 1
-                        boton.isEnabled = false
+                        win.text = getString(R.string.eleccion2)
                     }
-                    ganador()
                 } else {
-                    win.text = getString(R.string.eleccion2)
+                    win.text = getString(R.string.Reinicia)
                 }
             }
         }
