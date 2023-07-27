@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="A">-</string>
+    <string name="tateti">TA TE TI</string>
+    <string name="eleccion">Elige</string>
+    <string name="eleccion2">Elige una opción</string>
+    <string name="eleccion3">Para comenzar, elige una opción</string>
+    <string name="jugar">Jugar</string>
+    <string name="Reiniciar">Reiniciar</string>
+    <string name="Reinicia">Reinicia el juego</string>
+    <string name="x">X</string>
+    <string name="o">O</string>
+    <string name="empate">Empate!</string>
+    <string name="ganador_mensaje">Ganó: </string>
+    <string name="end">Termina el juego</string>
+</resources>
