@@ -1,16 +1,16 @@
 <resources>
-    <string name="app_name">Ta Te Ti</string>
+    <string name="app_name" translatable="false">Tic Tac Toe</string>
     <string name="A">-</string>
-    <string name="tateti">TA TE TI</string>
-    <string name="eleccion">Elige</string>
-    <string name="eleccion2">Elige una opción</string>
-    <string name="eleccion3">Para comenzar, elige una opción</string>
-    <string name="jugar">Jugar</string>
-    <string name="Reiniciar">Reiniciar</string>
-    <string name="Reinicia">Reinicia el juego</string>
+    <string name="tateti">TIC TAC TOE</string>
+    <string name="eleccion">Choose</string>
+    <string name="eleccion2">Choose an option</string>
+    <string name="eleccion3">To get started, choose an option</string>
+    <string name="jugar">Play</string>
+    <string name="Reiniciar">Restart</string>
+    <string name="Reinicia">Restart the game</string>
     <string name="x">X</string>
     <string name="o">O</string>
-    <string name="empate">Empate!</string>
-    <string name="ganador_mensaje">Ganó: </string>
-    <string name="end">Termina el juego</string>
+    <string name="empate">Draw!</string>
+    <string name="ganador_mensaje">Winner: </string>
+    <string name="end">Finish the game</string>
 </resources>
